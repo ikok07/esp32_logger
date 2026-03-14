@@ -4,5 +4,5 @@ set (INCLUDES ../logger/include)
 idf_component_register(
         SRCS ${SOURCES}
         INCLUDE_DIRS ${INCLUDES}
-        REQUIRES driver logger_board_specific
+        REQUIRES driver
 )
