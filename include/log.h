@@ -7,8 +7,6 @@
 
 #include <stdint.h>
 
-#define __weak __attribute__((weak))
-
 #define LOGGER_MSG_MAX_LEN          255
 
 typedef enum {
